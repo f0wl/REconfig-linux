@@ -18,7 +18,7 @@ go run reconfig-linux.go [-print] path/to/sample.elf
 
 ![Non-verbose Mode](img/screenshot-file.png)
 
-### Non-verbose Mode
+### Verbose Mode
 
 ![Verbose Mode](img/screenshot-verbose.png)
 
@@ -36,3 +36,13 @@ The table below shows the keys used in the JSON configuration of Netwalker Ranso
 |           nname             |                Filename of the Ransomnote               |
 |           rdmcnt            |           Currently unknown integer (RandomCount?)      |
 |           ext               |              File Extension (5 characters)              |
+
+## Testing
+
+This configuration extractor has been tested with the following samples:
+
+|                             SHA-256                              |                     Sample                    |
+| :--------------------------------------------------------------: | :-----------------------------------------------------: |
+| ea1872b2835128e3cb49a0bc27e4727ca33c4e6eba1e80422db19b505f965bc4 | [Malshare](https://malshare.com/sample.php?action=detail&hash=395249d3e6dae1caff6b5b2e1f75bacd) |
+
+If you encounter an error with REconfig-linux please file a bug report via an issue. Contributions are always welcome :)
