@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/f0wl/REconfig-linux)](https://goreportcard.com/report/github.com/f0wl/REconfig-linux)
+
 # REconfig-linux
 
 REconfig-linux is a configuration extractor for the Linux variant of REvil Ransomware. It is capable of extracting the json config from the ELF file and decoding the ransomnote within it. By default the script will write the results to files in the current working directory, but you can also choose to print the config to stdout only by using the `-print` flag.
