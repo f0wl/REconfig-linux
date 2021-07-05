@@ -30,7 +30,8 @@ The table below shows the keys used in the JSON configuration of Netwalker Ranso
 |             Key             |                     Value / Purpose                     |
 | :-------------------------: | :-----------------------------------------------------: |
 |           pk                |                Base64 encoded Public Key                |
-|           sub               |                  Affiliate identifier                   |
+|           pid               |            Affiliate identifier (BCrypt Hash)           |
+|           sub               |                  Campaign identifier                    |
 |           dbg               |                Debug / Development Mode                 |
 |           nbody             |                Base64 encoded Ransomnote                |
 |           nname             |                Filename of the Ransomnote               |
