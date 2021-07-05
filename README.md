@@ -25,7 +25,7 @@ go run reconfig-linux.go [-print] path/to/sample.elf
 
 ## Configuration contents
 
-The table below shows the keys used in the JSON configuration of Netwalker Ransomware. 
+The table below shows the keys used in the JSON configuration of REvil Linux Ransomware. 
 
 |             Key             |                     Value / Purpose                     |
 | :-------------------------: | :-----------------------------------------------------: |
