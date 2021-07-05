@@ -40,10 +40,13 @@ The table below shows the keys used in the JSON configuration of Netwalker Ranso
 
 ## Testing
 
-This configuration extractor has been tested with the following samples:
+This configuration extractor has been tested successfully with the following samples:
 
 |                             SHA-256                              |                     Sample                    |
 | :--------------------------------------------------------------: | :-----------------------------------------------------: |
 | ea1872b2835128e3cb49a0bc27e4727ca33c4e6eba1e80422db19b505f965bc4 | [Malshare](https://malshare.com/sample.php?action=detail&hash=395249d3e6dae1caff6b5b2e1f75bacd) |
+| 3d375d0ead2b63168de86ca2649360d9dcff75b3e0ffa2cf1e50816ec92b3b7d | [Malshare](https://malshare.com/sample.php?action=detail&hash=96a157e4c0bef22e0cea1299f88d4745) |
+| 796800face046765bd79f267c56a6c93ee2800b76d7f38ad96e5acb92599fcd4 | [Malshare](https://malshare.com/sample.php?action=detail&hash=ab3229656f73505a3c53f7d2e95efd0e) |
+| d6762eff16452434ac1acc127f082906cc1ae5b0ff026d0d4fe725711db47763 | [Malshare](https://malshare.com/sample.php?action=detail&hash=e199f02ffcf1b1769c8aeb580f627267) |
 
 If you encounter an error with REconfig-linux please file a bug report via an issue. Contributions are always welcome :)
