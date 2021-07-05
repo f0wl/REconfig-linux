@@ -2,7 +2,7 @@
 
 REconfig-linux is a configuration extractor for the Linux variant of REvil Ransomware. It is capable of extracting the json config from the ELF file and decoding the ransomnote within it. By default the script will write the results to files in the current working directory, but you can also choose to print the config to stdout only by using the `-print` flag.
 
-My Yara rule for the REvil Linux Ransomware can be found [here]().
+My Yara rule for the REvil Linux Ransomware can be found [here](https://github.com/f0wl/yara_rules/blob/main/linux/revil-linux.yar).
 
 A writeup by AT&T Alien Labs about this Ransomware variant can be found [here](https://cybersecurity.att.com/blogs/labs-research/revils-new-linux-version).
 
